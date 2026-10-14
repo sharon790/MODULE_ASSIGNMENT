@@ -10,3 +10,10 @@
       I selected the three columns and merged with customized symbol "-" and changed datatype to 'Date'
       I calculated the 'AGE' {   =DATEDIF([@[Date_of_Birth]],"08-06-2023","Y")  }
       changed data type to 'Currency'
+      I copied the 'customer_id' from the customer_data  and i typed {  =VLOOKUP(Healthcare!A2,'Customer_data'!$A:$D,3,FALSE)  } then type all the columns headings           into a new sheet "Healthcare".
+      i filled the data by using formula { =VLOOKUP($A2,Medical_Examination!$A:$J,2,FALSE) } 2nd column to 10th column from "BMI till Diabetes"
+      I filled the data by using formula {  =VLOOKUP($A2,Hosipital_Specialisation!$A:$K,6,FALSE) } 6th column to 11th column from "Date_of_Birth till Age"
+      I inserted the pivot tables first {  column - cancer history, row - smoker, values- count of customer_Id  } then inserted dougnut chart
+      I inserted the pivot tables f{  column - Sumofmajorsurgies, row - Any transplants, values- sumof major surgies and avergae of HBAIC  } then inserted PIE chart
+      
+      
