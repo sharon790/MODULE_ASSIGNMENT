@@ -18,5 +18,5 @@
       For healthcare charges vary by weight and diabetes status : rows- weighht_status,columns- Diabetes_status,values-average of charges
       Comparing the average charges for each hospital tier within the state : columns- Hospital_tier,  rows-State_ID,values-average of charges
       For correlation between Age and both BMI & HBA!C  - first selected both columns and inserted scatter 
-      
+      I arranged the graphs in a new sheet and inserted slicer of weight_status and Diabetes_status and connected all the pivot_tables by using report function
       
