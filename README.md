@@ -15,5 +15,8 @@
       I filled the data by using formula {  =VLOOKUP($A2,Hosipital_Specialisation!$A:$K,6,FALSE) } 6th column to 11th column from "Date_of_Birth till Age"
       I inserted the pivot tables first {  column - cancer history, row - smoker, values- count of customer_Id  } then inserted dougnut chart
       I inserted the pivot tables f{  column - Sumofmajorsurgies, row - Any transplants, values- sumof major surgies and avergae of HBAIC  } then inserted PIE chart
+      For healthcare charges vary by weight and diabetes status : rows- weighht_status,columns- Diabetes_status,values-average of charges
+      Comparing the average charges for each hospital tier within the state : columns- Hospital_tier,  rows-State_ID,values-average of charges
+      For correlation between Age and both BMI & HBA!C  - first selected both columns and inserted scatter 
       
       
